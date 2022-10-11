@@ -14,10 +14,11 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/html.jpg"
+                  src="/../public/assets/skills/html.png"
                   width="64px"
                   height="64px"
                   alt="/"
+                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -29,10 +30,11 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/css.jpg"
+                  src="/../public/assets/skills/css.png"
                   width="64px"
                   height="64px"
                   alt="/"
+                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -44,10 +46,11 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/javascript.jpg"
+                  src="/../public/assets/skills/javascript.png"
                   width="64px"
                   height="64px"
                   alt="/"
+                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -59,10 +62,11 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/github1.jpg"
+                  src="/../public/assets/skills/github1.png"
                   width="64px"
                   height="64px"
                   alt="/"
+                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -74,10 +78,11 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/react.jpg"
+                  src="/../public/assets/skills/react.png"
                   width="64px"
                   height="64px"
                   alt="/"
+                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -89,10 +94,11 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/nextjs.jpg"
+                  src="/../public/assets/skills/nextjs.png"
                   width="64px"
                   height="64px"
                   alt="/"
+                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -104,10 +110,11 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/tailwind.jpg"
+                  src="/../public/assets/skills/tailwind.png"
                   width="64px"
                   height="64px"
                   alt="/"
+                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -119,10 +126,11 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/sass.jpg"
+                  src="/../public/assets/skills/sass.png"
                   width="64px"
                   height="64px"
                   alt="/"
+                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">

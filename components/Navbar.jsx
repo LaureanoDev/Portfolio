@@ -98,6 +98,7 @@ const Navbar = () => {
                   width="94"
                   height="100"
                   alt="/"
+                  loading="lazy"
                 />
               </Link>
               <div
