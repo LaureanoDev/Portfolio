@@ -35,7 +35,7 @@ const crypto = () => {
           <Link href="https://github.com/LaureanoDev/Cryptocurrency-app">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
-          <Link href='https://todo-app-one-rho.vercel.app/'>
+          <Link href='https://cryptocurrency-app-lyart.vercel.app/'>
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
         </div>
