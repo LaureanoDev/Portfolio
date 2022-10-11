@@ -1,4 +1,12 @@
 import Image from "next/image";
+import css from "../public/assets/skills/css.png"
+import github1 from "../public/assets/skills/github1.png"
+import html from "../public/assets/skills/html.png"
+import javascript from "../public/assets/skills/javascript.png"
+import nextjs from "../public/assets/skills/nextjs.png"
+import react from "../public/assets/skills/react.png"
+import sass from "../public/assets/skills/sass.png"
+import tailwind from "../public/assets/skills/tailwind.png"
 import React from "react";
 
 const Skills = () => {
@@ -14,7 +22,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/html.png"
+                  src={html}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -30,7 +38,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/css.png"
+                  src={css}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -46,7 +54,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/javascript.png"
+                  src={javascript}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -62,7 +70,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/github1.png"
+                  src={github1}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -78,7 +86,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/react.png"
+                  src={react}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -94,7 +102,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/nextjs.png"
+                  src={nextjs}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -110,7 +118,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/tailwind.png"
+                  src={tailwind}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -126,7 +134,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/sass.png"
+                  src={sass}
                   width="64px"
                   height="64px"
                   alt="/"
