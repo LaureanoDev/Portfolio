@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import ContactImg from "../public/assets/contact.jpg";
+import ContactImg from "../public/assets/perfil.jpeg";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
