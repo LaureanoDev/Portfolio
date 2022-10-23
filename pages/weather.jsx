@@ -31,10 +31,10 @@ const crypto = () => {
             humidity, maximum temperature and minimum temperature of the city of
             your choice. It also has a parallax animation made with GSAP.
           </p>
-          <Link href="https://weatherapp-six-pi.vercel.app/">
+          <Link href="https://github.com/LaureanoDev/Wather-app">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
-          <Link href="https://github.com/LaureanoDev/Wather-app">
+          <Link href="https://weatherapp-six-pi.vercel.app/">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
         </div>
