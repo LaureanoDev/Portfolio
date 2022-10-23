@@ -1,5 +1,6 @@
 import React from "react";
 import CryptoImgage from "../public/assets/projects/CryptoAppImage.PNG";
+import WeatherImage from "../public/assets/projects/weather_image.png"
 import todo_image from "../public/assets/projects/todo_image.png";
 import ProjectItem from "./ProjectItem";
 
@@ -22,6 +23,12 @@ const Projects = () => {
             title="Todo List"
             backgroundImg={todo_image}
             projectUrl="/todo"
+            tech="React JS"
+          />
+          <ProjectItem
+            title="Weather App"
+            backgroundImg={WeatherImage}
+            projectUrl="/weather"
             tech="React JS"
           />
         </div>
