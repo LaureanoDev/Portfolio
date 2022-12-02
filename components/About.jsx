@@ -9,7 +9,7 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-[#72f] to-[#c1b]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'> 
-                I am a first year college student passionate about Front-End and learning new technologies. I specialize in building mobile UI applications that interact with APIs and other back-end technologies. In college I learned GIT and we are currently learning Java, but I self-taught myself learning HTML, CSS, Javascript, React JS, Next JS, Tailwind CSS, SASS, etc. 
+                I am a college student passionate about front-end. I specialize in building responsive applications that interact with apis and backend. I self-taught myself HTML, CSS, Javascript, TypeScript, React JS, Next JS, Tailwind CSS, SASS, GIT, etc. 
             </p>
             <p className='py-2 text-gray-600'>
             I would like to start in this industry mainly to learn from people who know much more than me and to learn other technologies.
