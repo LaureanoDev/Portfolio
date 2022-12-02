@@ -3,6 +3,7 @@ import CryptoImgage from "../public/assets/projects/CryptoAppImage.PNG";
 import WeatherImage from "../public/assets/projects/weather_image.png"
 import todo_image from "../public/assets/projects/todo_image.png";
 import ProjectItem from "./ProjectItem";
+import metaverse from "../public/assets/projects/metaverse.png"
 
 const Projects = () => {
   return (
@@ -14,15 +15,21 @@ const Projects = () => {
         <h2 className="py-4">What I´ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={CryptoImgage}
-            projectUrl="/crypto"
-            tech="React JS"
+            title="Metaversus"
+            backgroundImg={metaverse}
+            projectUrl="/metaverse"
+            tech="Next 13"
           />
           <ProjectItem
             title="Todo List"
             backgroundImg={todo_image}
             projectUrl="/todo"
+            tech="React JS"
+          />
+          <ProjectItem
+            title="Crypto App"
+            backgroundImg={CryptoImgage}
+            projectUrl="/crypto"
             tech="React JS"
           />
           <ProjectItem
