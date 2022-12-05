@@ -1,6 +1,6 @@
 import React from "react";
 import CryptoImgage from "../public/assets/projects/CryptoAppImage.PNG";
-import WeatherImage from "../public/assets/projects/weather_image.png"
+import Ravel from "../public/assets/projects/ravel.png"
 import todo_image from "../public/assets/projects/todo_image.png";
 import ProjectItem from "./ProjectItem";
 import metaverse from "../public/assets/projects/metaverse.png"
@@ -21,6 +21,12 @@ const Projects = () => {
             tech="Next 13"
           />
           <ProjectItem
+            title="Ravel"
+            backgroundImg={Ravel}
+            projectUrl="/weather"
+            tech="React JS"
+          />
+          <ProjectItem
             title="Todo List"
             backgroundImg={todo_image}
             projectUrl="/todo"
@@ -30,12 +36,6 @@ const Projects = () => {
             title="Crypto App"
             backgroundImg={CryptoImgage}
             projectUrl="/crypto"
-            tech="React JS"
-          />
-          <ProjectItem
-            title="Weather App"
-            backgroundImg={WeatherImage}
-            projectUrl="/weather"
             tech="React JS"
           />
         </div>

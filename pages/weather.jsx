@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import WeatherImage from "../public/assets/projects/weather_image.png";
+import Ravel from "../public/assets/projects/ravel.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,12 +13,12 @@ const crypto = () => {
           className="absolute z-1 "
           layout="fill"
           objectFit="cover"
-          src={WeatherImage}
+          src={Ravel}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Crypto App</h2>
-          <h3>React JS / CSS / GSAP 3.0</h3>
+          <h2 className="py-2">Rave</h2>
+          <h3>React JS / Styled Components</h3>
         </div>
       </div>
 
@@ -27,14 +27,14 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Weather application that allows you to view the temperature,
-            humidity, maximum temperature and minimum temperature of the city of
-            your choice. It also has a parallax animation made with GSAP.
+            Web layout for Ravel, travel agency. Made with React JS and styled
+            components, it features destinations, dates, top destinations and
+            testimonials.
           </p>
-          <Link href="https://github.com/LaureanoDev/Wather-app">
+          <Link href="https://github.com/LaureanoDev/Agency-travel">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
-          <Link href="https://weatherapp-six-pi.vercel.app/">
+          <Link href="https://agency-travel-nu2lc6781-laureanodev.vercel.app/">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
         </div>
@@ -46,13 +46,7 @@ const crypto = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> GSAP
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> OpenWeather API
+                <RiRadioButtonFill className="pr-1" /> Styled Components
               </p>
             </div>
           </div>
