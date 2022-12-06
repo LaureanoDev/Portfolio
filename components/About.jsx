@@ -11,9 +11,6 @@ const About = () => {
                 <p className='py-2 text-gray-600'> 
                 I am a college student passionate about front-end. I specialize in building responsive applications that interact with apis and backend. I self-taught myself HTML, CSS, Javascript, TypeScript, React JS, Next JS, Tailwind CSS, SASS, GIT, etc. 
             </p>
-            <p className='py-2 text-gray-600'>
-            I would like to start in this industry mainly to learn from people who know much more than me and to learn other technologies.
-            </p>
             <Link href="/#projects">
             <p className='py-2 text-gray-600 underline cursor-pointer'>Checkout out some of my latest projects.</p>
             </Link>
